@@ -1,0 +1,349 @@
+fileFormatVersion: 2
+guid: 66cfbe1ede58b4706bfd89fac015257e
+timeCreated: 1466799246
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: face_eyesclosed
+    21300002: face_mouthopen
+    21300004: face_mouthclosed
+    21300006: face_frown
+    21300008: face_surprised
+    21300010: cape
+    21300012: torso
+    21300014: shieldL
+    21300016: shieldR
+    21300018: shieldF
+    21300020: sword
+    21300022: hatchet
+    21300024: swordOut
+    21300026: leftleg
+    21300028: rightleg
+    21300030: leftfoot
+    21300032: rightfoot
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 150
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: face_eyesclosed
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 7
+        width: 60
+        height: 96
+      alignment: 9
+      pivot: {x: 0.5413387, y: 0.004792074}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23.344086, y: 69.553055}
+        - {x: -23.344086, y: -0.4469428}
+        - {x: 17.655914, y: -0.4469428}
+        - {x: 21.655914, y: 1.5530572}
+        - {x: 21.655914, y: 60.55306}
+        - {x: 16.655914, y: 69.553055}
+    - name: face_mouthopen
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 7
+        width: 61
+        height: 96
+      alignment: 9
+      pivot: {x: 0.45943615, y: 0.0029086322}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.459076, y: 69.68418}
+        - {x: -20.459076, y: 66.68418}
+        - {x: -20.459076, y: -0.3158164}
+        - {x: 13.540924, y: -0.3158164}
+        - {x: 24.540924, y: 4.6841836}
+        - {x: 24.540924, y: 62.684185}
+        - {x: 17.540924, y: 69.68418}
+    - name: face_mouthclosed
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 7
+        width: 60
+        height: 96
+      alignment: 9
+      pivot: {x: 0.482326, y: 0.0065907887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.906433, y: 69.42783}
+        - {x: -14.093567, y: 69.42783}
+        - {x: -21.093567, y: 57.427834}
+        - {x: -21.093567, y: 6.427832}
+        - {x: -13.093567, y: -0.5721679}
+        - {x: 17.906433, y: -0.5721679}
+        - {x: 23.906433, y: 5.427832}
+        - {x: 23.906433, y: 60.427834}
+        - {x: 22.906433, y: 62.427834}
+    - name: face_frown
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 7
+        width: 60
+        height: 96
+      alignment: 9
+      pivot: {x: 0.4351944, y: 0.0065907887}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.025742, y: 69.42783}
+        - {x: -19.025742, y: 59.427834}
+        - {x: -19.025742, y: -0.5721679}
+        - {x: 23.974258, y: -0.5721679}
+        - {x: 25.974258, y: 5.427832}
+        - {x: 25.974258, y: 68.42783}
+        - {x: 23.974258, y: 69.42783}
+    - name: face_surprised
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 7
+        width: 60
+        height: 96
+      alignment: 9
+      pivot: {x: 0.44108582, y: 0.013955106}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.44075, y: 68.91512}
+        - {x: -19.44075, y: -0.08487463}
+        - {x: -14.44075, y: -1.0848746}
+        - {x: 18.55925, y: -1.0848746}
+        - {x: 25.55925, y: 3.9151254}
+        - {x: 25.55925, y: 60.915127}
+        - {x: 17.55925, y: 68.91512}
+    - name: cape
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 0
+        width: 45
+        height: 98
+      alignment: 9
+      pivot: {x: 0.9948825, y: 0.95087653}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.484558, y: 3.9558258}
+        - {x: -32.48456, y: -37.044174}
+        - {x: -32.48456, y: -68.044174}
+        - {x: -5.484558, y: -68.044174}
+        - {x: -2.484558, y: -65.044174}
+        - {x: 1.5154419, y: -51.044174}
+        - {x: 1.5154419, y: 3.9558258}
+    - name: torso
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 1
+        width: 47
+        height: 94
+      alignment: 9
+      pivot: {x: 0.4774371, y: 0.044979222}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.8272705, y: 66.243965}
+        - {x: -15.8272705, y: 62.243965}
+        - {x: -15.8272705, y: -2.7560363}
+        - {x: 19.17273, y: -2.7560363}
+        - {x: 19.17273, y: 63.243965}
+        - {x: 18.17273, y: 66.243965}
+    - name: shieldL
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 0
+        width: 72
+        height: 92
+      alignment: 9
+      pivot: {x: 0.33798558, y: 0.91496336}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4.745758, y: 5.813835}
+        - {x: -7.745758, y: 3.8138351}
+        - {x: -10.745758, y: -1.1861649}
+        - {x: -17.745758, y: -23.186165}
+        - {x: -17.745758, y: -54.186165}
+        - {x: -11.745758, y: -61.186165}
+        - {x: 24.254242, y: -61.186165}
+        - {x: 35.254242, y: -56.186165}
+        - {x: 35.254242, y: -20.186165}
+        - {x: 6.254242, y: 5.813835}
+    - name: shieldR
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 73
+        height: 93
+      alignment: 9
+      pivot: {x: 0.44673553, y: 0.925705}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.044159, y: 5.2884293}
+        - {x: -24.044159, y: -2.7115707}
+        - {x: -24.044159, y: -61.71157}
+        - {x: -21.044159, y: -62.71157}
+        - {x: 29.955841, y: -62.71157}
+        - {x: 29.955841, y: -11.711571}
+        - {x: 18.955841, y: 5.2884293}
+    - name: shieldF
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 9
+        width: 35
+        height: 72
+      alignment: 9
+      pivot: {x: 0.08591483, y: 0.7012913}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.007019, y: 21.507027}
+        - {x: -3.007019, y: -26.492973}
+        - {x: 3.992981, y: -50.492973}
+        - {x: 22.992981, y: -50.492973}
+        - {x: 30.992981, y: -43.492973}
+        - {x: 31.992981, y: -38.492973}
+        - {x: 31.992981, y: 21.507027}
+    - name: sword
+      rect:
+        serializedVersion: 2
+        x: 774
+        y: 4
+        width: 109
+        height: 86
+      alignment: 9
+      pivot: {x: 0.18867199, y: 0.92747295}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 9.924316, y: 6.240101}
+        - {x: -15.075684, y: 6.240101}
+        - {x: -15.075684, y: -57.7599}
+        - {x: 47.924316, y: -57.7599}
+        - {x: 64.92432, y: -53.7599}
+        - {x: 64.92432, y: -42.7599}
+        - {x: 57.924316, y: -38.7599}
+    - name: hatchet
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 0
+        width: 152
+        height: 90
+      alignment: 9
+      pivot: {x: 0.14651288, y: 0.9320399}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 18.508179, y: 4.801136}
+        - {x: -16.491821, y: 4.801136}
+        - {x: -16.491821, y: -58.198864}
+        - {x: -11.491821, y: -59.198864}
+        - {x: 29.508179, y: -61.198864}
+        - {x: 94.50818, y: -61.198864}
+        - {x: 94.50818, y: -33.198864}
+        - {x: 65.50818, y: -4.198864}
+    - name: swordOut
+      rect:
+        serializedVersion: 2
+        x: 1074
+        y: 37
+        width: 168
+        height: 28
+      alignment: 9
+      pivot: {x: 0.95869154, y: 0.70199287}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: leftleg
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 9
+        width: 24
+        height: 53
+      alignment: 9
+      pivot: {x: 0.67674255, y: 0.96020025}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rightleg
+      rect:
+        serializedVersion: 2
+        x: 1287
+        y: 11
+        width: 25
+        height: 52
+      alignment: 9
+      pivot: {x: 0.18893066, y: 0.96905035}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: leftfoot
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 12
+        width: 27
+        height: 13
+      alignment: 9
+      pivot: {x: 0.32980686, y: 0.9350611}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: rightfoot
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 14
+        width: 26
+        height: 13
+      alignment: 9
+      pivot: {x: 0.30966422, y: 0.8806789}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

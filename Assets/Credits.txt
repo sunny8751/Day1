@@ -1,0 +1,11 @@
+credits:
+
+Character Sprite:
+kalface@gmail.com
+blog  http://c-toy.blogspot.pt/
+
+Icons:
+hatchet: 
+Icons made by Lorc. Available on http://game-icons.net
+sword:
+http://icons8.com

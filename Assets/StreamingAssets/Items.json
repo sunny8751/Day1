@@ -1,0 +1,23 @@
+[
+    	{
+		"id":0,
+		"title":"Wood",
+		"description": "Kindling for fire.",
+		"stackable": true,
+		"slug": "hatchet"
+	}, 
+	{
+		"id":1,
+		"title":"Sword",
+		"description": "A mighty sword to slay animals.",
+		"stackable": false,
+		"slug": "sword"
+	}, 
+    	{
+		"id":2,
+		"title":"Hatchet",
+		"description": "The greatest foe to trees.",
+		"stackable": true,
+		"slug": "hatchet"
+	}
+]
