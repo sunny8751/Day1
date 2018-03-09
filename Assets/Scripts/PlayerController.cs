@@ -72,16 +72,16 @@ public class PlayerController : MonoBehaviour {
 
 		playerSprites = Resources.LoadAll<Sprite> ("Player");
 
-		swordCollider = transform.FindChild ("torso/rightarm/sword collider").gameObject;
-		hatchetCollider = transform.FindChild ("torso/rightarm/hatchet collider").gameObject;
+		swordCollider = transform.Find ("torso/rightarm/sword collider").gameObject;
+		hatchetCollider = transform.Find ("torso/rightarm/hatchet collider").gameObject;
 		hatchetCollider.SetActive (false);
 
 		hatchetButton = GameObject.Find ("HatchetButton");
 		hatchetButton.SetActive (false);
 		targetTreeHealth = targetTreeMaxHealth;
 
-		playerHeight = (transform.FindChild("torso/face").position.y + transform.FindChild("torso/face").GetComponent<SpriteRenderer> ().sprite.bounds.size.y) -
-			(transform.FindChild("rightleg").position.y - transform.FindChild("rightleg").GetComponent<SpriteRenderer> ().sprite.bounds.size.y);
+		playerHeight = (transform.Find("torso/face").position.y + transform.Find("torso/face").GetComponent<SpriteRenderer> ().sprite.bounds.size.y) -
+			(transform.Find("rightleg").position.y - transform.Find("rightleg").GetComponent<SpriteRenderer> ().sprite.bounds.size.y);
 
 		downButton = GameObject.Find ("DownButton");
 		downButton.SetActive (false);
@@ -476,24 +476,24 @@ public class PlayerController : MonoBehaviour {
 	void changePlayer (string part) {
 		switch (part) {
 		case "frown":
-			transform.FindChild("torso/face").GetComponent<SpriteRenderer>().sprite = playerSprites[2];
+			transform.Find("torso/face").GetComponent<SpriteRenderer>().sprite = playerSprites[2];
 			break;
 		case "mouth closed":
-			transform.FindChild("torso/face").GetComponent<SpriteRenderer>().sprite = playerSprites[3];
+			transform.Find("torso/face").GetComponent<SpriteRenderer>().sprite = playerSprites[3];
 			break;
 		case "mouth open":
-			transform.FindChild("torso/face").GetComponent<SpriteRenderer>().sprite = playerSprites[4];
+			transform.Find("torso/face").GetComponent<SpriteRenderer>().sprite = playerSprites[4];
 			break;
 		case "surprised":
-			transform.FindChild("torso/face").GetComponent<SpriteRenderer>().sprite = playerSprites[5];
+			transform.Find("torso/face").GetComponent<SpriteRenderer>().sprite = playerSprites[5];
 			break;
 		case "hatchet":
-			transform.FindChild ("torso/rightarm").GetComponent<SpriteRenderer> ().sprite = playerSprites [6];
+			transform.Find ("torso/rightarm").GetComponent<SpriteRenderer> ().sprite = playerSprites [6];
 			swordCollider.SetActive (false);
 			hatchetCollider.SetActive (true);
 			break;
 		case "sword":
-			transform.FindChild ("torso/rightarm").GetComponent<SpriteRenderer> ().sprite = playerSprites [14];
+			transform.Find ("torso/rightarm").GetComponent<SpriteRenderer> ().sprite = playerSprites [14];
 			hatchetCollider.SetActive (false);
 			swordCollider.SetActive (true);
 			break;

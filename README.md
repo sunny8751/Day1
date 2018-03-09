@@ -2,7 +2,7 @@
 
 A 2D iPhone game where the player tries to survive each day and night in spite of the dangers and enemies. 
 
-Features implemented: Endless terrain generation, day and night cycle, fully functional inventory, gathering wood from trees, running and swimming
+Features implemented: Endless terrain generation using Perlin noise, day and night cycle, fully functional inventory, gathering wood from trees, running and swimming
 
 Screenshots:
 

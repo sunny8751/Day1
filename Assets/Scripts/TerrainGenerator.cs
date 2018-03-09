@@ -33,7 +33,7 @@ public class TerrainGenerator : MonoBehaviour {
 
 	void Awake () {
 		long seed = Random.Range (1000000, 10000000);
-		seed = 7939704;
+		//seed = 7939704;
 		print ("Seed: " + seed);
 		pn = new PerlinNoise (seed);
 
